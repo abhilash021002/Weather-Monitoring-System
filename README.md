@@ -2,6 +2,8 @@
 
 
 A comprehensive IoT-based weather monitoring system that combines Arduino hardware with a web interface to track and display environmental conditions in real-time.
+
+
 Hardware Components
 
 Arduino UNO R3 (Main controller)
@@ -11,8 +13,14 @@ BMP180 Barometric Pressure Sensor
 ESP8266 Wi-Fi Module
 Breadboard and connecting wires
 
+
+
 Hardware Setup
+
+
 The system uses the following pin connections:
+
+
 
 DHT11 Temperature & Humidity Sensor:
 
@@ -43,8 +51,9 @@ RX/TX for serial communication
 
 
 
-Refer to the provided circuit diagram for detailed connection layout.
 Features
+
+
 1. Temperature Monitoring
 
 Primary display in Celsius (°C)
@@ -103,8 +112,6 @@ Real-time air quality status updates
 Measurement in kPa (kilopascals)
 Continuous pressure trend monitoring
 
-Web Interface
-The system features a responsive web dashboard with:
 
 Main Overview Panel:
 
@@ -140,7 +147,11 @@ Air Quality Resolution: 1 PPM
 Update Frequency: 15 seconds
 Data Storage: ThingSpeak Cloud Platform
 
+
+
 Installation
+
+
 
 Hardware Assembly:
 
